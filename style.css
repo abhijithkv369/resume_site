@@ -1,0 +1,36 @@
+/* style.css - valid CSS for the resume website */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.45;
+  margin: 0;
+  padding: 0;
+  background: #f4f7fb;
+  color: #222;
+}
+.wrapper {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(20,30,60,0.08);
+}
+header h1 { margin: 0; font-size: 28px; }
+nav { margin-top: 12px; }
+nav ul { list-style: none; padding: 0; margin: 0; }
+nav ul li { display: inline-block; margin-right: 12px; }
+a { text-decoration: none; color: #0b66c3; }
+a:hover { text-decoration: underline; }
+section { margin-top: 16px; }
+h2 { margin-bottom: 8px; font-size: 20px; color: #163b60; }
+.job, .edu { margin-bottom: 12px; }
+footer { margin-top: 28px; font-size: 13px; color: #666; border-top: 1px solid #eee; padding-top: 12px; }
+.contact-list { list-style: none; padding: 0; margin: 0; }
+.contact-list li { margin-bottom: 6px; }
+.profile-photo { float: right; margin-left: 12px; width: 120px; height: 120px; border-radius: 6px; object-fit: cover; border: 1px solid #ddd; }
+.clear { clear: both; }
+@media (max-width:600px) {
+  .wrapper { margin: 8px; padding: 12px; }
+  .profile-photo { float:none; display:block; margin: 0 auto 12px; }
+  nav ul li { display: block; margin: 6px 0; }
+}
